@@ -17,7 +17,7 @@
 			$e = trim($_POST['email']);
 		}
 
-		if (!empty($_POST['pass1'])) {
+  		if (!empty($_POST['pass1'])) {
 			if ($_POST['pass1']  != $_POST['pass2']) {
 				$errors[] = 'your password did not match the confirmed password.';
 			}else{
